@@ -1,6 +1,7 @@
 {
   "name": "backend",
   "version": "1.0.0",
+  "description": "",
   "main": "src/server.js",
   "scripts": {
      "dev": "set NODE_OPTIONS=--import ./instrument.mjs && nodemon src/server.js",
@@ -10,7 +11,6 @@
   "author": "",
   "type": "module",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "@clerk/express": "^1.7.4",
     "@sentry/node": "^10.1.0",
@@ -22,6 +22,7 @@
     "stream-chat": "^8.60.0"
   },
   "devDependencies": {
+    "cross-env": "^10.1.0",
     "nodemon": "^3.1.10"
   }
 }
